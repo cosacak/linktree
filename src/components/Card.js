@@ -24,13 +24,13 @@ function Card(props) {
 
     return (
         <a href={props.link}>
-            <motion.div className = "Card four columns"
+            <motion.div className = "CardSmall four CardColumns"
                 initial="hidden"
                 animate="visible"
                 custom={props.i}
                 variants={variants}>
-                <img className = "cover" src = {props.cover} alt=""></img>
-                <div className="data">
+                <img className = "CardCover" src = {props.cover} alt=""></img>
+                <div className="CardData">
                     <h2>{props.title}</h2>
                     <p>{props.subtitle}</p>
                 </div>
