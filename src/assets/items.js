@@ -6,8 +6,10 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/IMG_20201124_104554.png'
 import linkedin from '../assets/linkedin.png'
-import rmcLogo from '../assets/rmcotomotiv.jpg'
+import rmcLogo from '../assets/rmcotomotiv.png'
 import facebook from '../assets/facebook.png'
+import whatsapp from '../assets/whatsapp.png'
+import mail from '../assets/mail.png'
 
 const items = [{
     "title": "RMC Otomotiv",
@@ -22,11 +24,24 @@ const items = [{
 //     "link": "https://github.com/devgossips"
 // },
 {
+    "title": "Whatsapp",
+    "subtitle": "Reach me on Whatsapp",
+    "image": whatsapp,
+    "link": "https://wa.me/+0905447157302"
+},
+{
     "title": "Linkedin",
     "subtitle": "Business Contact",
     "image": linkedin,
     "link": "https://www.linkedin.com/in/cihan-k%C4%B1l%C4%B1%C3%A7-37052ba8/"
-},
+    },
+
+    {
+        "title": "Mail",
+        "subtitle": "Business Mail",
+        "image": mail,
+        "link": "mailto:cihan@rmcotomotiv.com"
+    },
 {
     "title": "RMC - Instagram",
     "subtitle": "@rmcotomotiv | Hub of my works",

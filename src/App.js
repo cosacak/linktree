@@ -4,6 +4,9 @@ import Card from './components/Card'
 import Footer from './components/Footer'
 import items from './assets/items'
 import profilePhoto from './assets/chn.jpg'
+// import ShareBtn from 'react-share-button';
+
+// import "react-share-button/dist/ShareBtn" 
 
 // import './css/skeleton.css'
 // import './css/normalize.css'
@@ -48,6 +51,8 @@ function App() {
                     </div> 
                 </div>
             </div>
+
+         
             <div className = "CardContainer CardRow">
                 {
                     items.map((item, i) => {
