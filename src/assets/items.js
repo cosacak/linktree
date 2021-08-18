@@ -12,8 +12,8 @@ import whatsapp from '../assets/whatsapp.png'
 import mail from '../assets/mail.png'
 
 const items = [{
-    "title": "RMC Otomotiv",
-    "subtitle": "Look at my work!",
+    // "title": "RMC Otomotiv",
+    // "subtitle": "Look at my work!",
     "image": rmcLogo,
     "link": "https://rmcotomotiv.com/"
 },
@@ -24,14 +24,14 @@ const items = [{
 //     "link": "https://github.com/devgossips"
 // },
 {
-    "title": "Whatsapp",
-    "subtitle": "Reach me on Whatsapp",
+    // "title": "Whatsapp",
+    // "subtitle": "Reach me on Whatsapp",
     "image": whatsapp,
     "link": "https://wa.me/+0905447157302"
 },
 {
-    "title": "Linkedin",
-    "subtitle": "Business Contact",
+    // "title": "Linkedin",
+    // "subtitle": "Business Contact",
     "image": linkedin,
     "link": "https://www.linkedin.com/in/cihan-k%C4%B1l%C4%B1%C3%A7-37052ba8/"
     },
